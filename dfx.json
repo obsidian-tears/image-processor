@@ -1,0 +1,20 @@
+{
+  "canisters": {
+    "obsidian_tears_image_processor_backend": {
+      "build": "npx azle obsidian_tears_image_processor_backend",
+      "candid": "src/obsidian_tears_image_processor_backend/obsidian_tears_image_processor_backend.did",
+      "gzip": true,
+      "main": "src/obsidian_tears_image_processor_backend/src/index.ts",
+      "type": "custom",
+      "wasm": ".azle/obsidian_tears_image_processor_backend/obsidian_tears_image_processor_backend.wasm"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

@@ -1,0 +1,20 @@
+# Various IDEs and Editors
+.vscode/
+.idea/
+**/*~
+
+# Mac OSX temporary files
+.DS_Store
+**/.DS_Store
+
+# temporary files
+.dfx/
+.azle/
+node_modules/
+
+# generated files
+**/declarations/
+/src/obsidian_tears_image_processor_backend/obsidian_tears_image_processor_backend.did
+
+# environment variables
+.env
